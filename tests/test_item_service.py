@@ -1,6 +1,6 @@
 from app.adapters.in_memory_item_repository import InMemoryItemRepository
+
 from app.domain.service.item_service import ItemService
-from app.domain.entity.item import Item
 
 
 def test_create_item_returns_item_with_id ():

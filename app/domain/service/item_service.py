@@ -2,8 +2,8 @@ from item.py import Item
 
 
 class ItemService:
-    def __init__(self , inMemoryItemRepository):
-        self.inMemoryItemRepository = inMemoryItemRepository
+    def __init__(self , InMemoryItemRepository):
+        self.inMemoryItemRepository = InMemoryItemRepository
 
 
     def create_item(name):
